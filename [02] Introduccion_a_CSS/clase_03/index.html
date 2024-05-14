@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv=""X-UA-Comptaible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduccion a CSS</title>
+    <!-- Mediante TAG style-->
+    <!--esta es la menos utilizadas ya que es mala practica-->
+    <!-- <style>
+      body {
+        background-color: black;
+        color: aliceblue;
+      }
+      h1 {
+        background-color: bisque;
+        color: black;
+      }
+      p {
+        color: darkturquoise;
+      }
+    </style> -->
+    <!-- Mediante un ARCHIVO EXTERNO-->
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- Mediante ATRIBUTOS-->
+    <header>
+      <h1 style="background-color: burlywood; font-size: 50px">Intro a CSS</h1>
+    </header>
+    <main>
+      <h2 class="parrafoBorde">otro TITULO</h2>
+      <p class="parrafoBorde">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste labore
+        laboriosam necessitatibus similique, odio tenetur tempora iure
+        exercitationem eos maxime maiores nisi obcaecati debitis reiciendis
+        commodi saepe vero et.
+      </p>
+      <p class="parrafoBorde" id="idEspecifico">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio ipsam
+        ut illo ad rerum aperiam, aliquam assumenda voluptates est voluptatem
+        dolorum magnam distinctio. Temporibus deleniti excepturi at sint
+        consequuntur.
+      </p>
+      <p id="soyUnico">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in
+        voluptate quos culpa aut eius commodi, veritatis necessitatibus corrupti
+        repellat saepe labore sed expedita fugiat sapiente magnam impedit
+        placeat. Sequi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam,
+        earum velit cupiditate vel assumenda omnis. Iste ipsa, officia corrupti,
+        minus deserunt ea eum sapiente fugit ullam asperiores, hic numquam.
+      </p>
+
+      <div class="secciones s-uno">
+        <h4>Seccion 1</h4>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, sit.
+        </p>
+      </div>
+      <div class="secciones s-dos">
+        <h4>Seccion 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, ab?
+        </p>
+      </div>
+      <div class="secciones s-tres">
+        <h4>Seccion 3</h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, eos.
+        </p>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

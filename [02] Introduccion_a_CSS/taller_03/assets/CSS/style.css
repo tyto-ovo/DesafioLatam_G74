@@ -1,0 +1,23 @@
+.contenedor {
+  background-color: red;
+  color: blue;
+}
+
+div .contenedor span {
+  background-color: grey;
+  color: green;
+}
+.titulo {
+  color: aqua;
+}
+h1 {
+  color: black !important;
+}
+button {
+    display: inline-block;
+  font-size: 40px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin: 40px 20px 10px 50px;
+  padding: 40px;
+}

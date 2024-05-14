@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* div {
+  background-color: blueviolet;
+  display: inline;
+} */
+
+a {
+  background-color: brown;
+  color: white;
+  display: block;
+}
+
+/* div * {
+  /* Es para todo los div hijos */
+/*   background-color: orange;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid white;
+} */
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+.boxes1 {
+  display: flex;
+  justify-content: space-around;
+}
+.boxes2 {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}

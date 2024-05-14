@@ -1,0 +1,47 @@
+/* 03256C  royal blue  
+2541B2 persian blue
+1768AC green blue
+06BEE1 aero
+FFFFFF white */
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1768ac;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado {
+  height: 10em;
+  background-image: url("../imgs/barbell\ wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2em;
+}
+.titulo {
+  font-size: 2em;
+  padding: 5em;
+  color: #03256c;
+  font-weight: 100;
+}
+.texto {
+  margin-left: 7em;
+}
+.producto {
+  width: 25em;
+}
+
+.listado {
+  margin-left: 20%;
+  font-size: 2em;
+}
+
+.pie {
+  height: 3em;
+  line-height: 3em;
+  background-color: #06bee1;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
